@@ -1,0 +1,117 @@
+body{
+  background-color: antiquewhite;
+}
+
+.contenedor{
+  margin-left: 5%;
+  margin-top: 4em;
+}
+
+.principio{
+  position: absolute;
+  top: -0px;
+ }
+
+ .container{
+  display: flex;
+  position: fixed;
+  border: 5px double rgb(247, 241, 241);
+  background-color: rgb(91, 9, 9);
+  width: 95%;
+  border-radius: 1em;
+  margin-left: 1%;
+  color: white;
+  font-size: 1.5em;
+  padding-left: 1em;
+}
+
+.logo{
+  font-style:italic ;  
+  padding-right: 1em;   
+}
+/* imágenes */
+.logoC{
+  width: 2em;
+  border-radius: 20px;
+  margin-top: 0.2em;
+}
+
+#hero{
+  display: flex;
+  height: 80vh;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,0.4),
+      rgba(0,0,0,0.4)
+  )
+  ,url("./images/PORTADA.jpg");
+  background-repeat: no-repeat;
+  background-size: 95%;
+  background-position: center center;
+}
+
+.nombre{
+  color: white;
+  font-size: 0.9em;
+   padding-left: 1em;
+  text-decoration: none;
+}
+
+.nombre:hover{
+  color: yellow;
+}
+.footer{
+  border: green double 4px;
+  background-color: antiquewhite;
+  border-radius: 1em;
+  text-align: center;
+}
+
+.init{
+  margin-top: 2.5em;
+  border: 4px double brown;
+  width: 10em;
+  text-align: center;
+  color: brown;
+  font-style: italic;
+  padding: 0.2em;
+
+}
+
+.cita{
+  color: brown;
+  font-style: italic;
+  font-size: 1.5em;
+}
+
+/* summary */
+.li{
+  border: 1px solid brown;
+  width: 90%;
+  margin: 0.4em;
+  font-size: 1.5em;
+  padding-left: 0.5em;
+ }
+ summary{
+  color: brown;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.subtitulo{
+  color: darkred;
+  margin-left: 1em;
+}
+
+.lema{
+  color: blue;
+  font-size: 1.2em;
+}
+
+.select{
+  border: brown 1px solid;
+  font-size: 1.2em;
+  width: 90%;
+  margin: 0.4em;
+  padding: 0.3em;
+}
