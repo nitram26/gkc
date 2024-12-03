@@ -60,6 +60,7 @@ body{
   font-size: 0.9em;
  text-decoration: none;
   font-style: italic;
+  padding-right: 1em;
 }
 
 .nombre:hover{
