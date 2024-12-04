@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+  <title>LAYOUTS</title>
+  <script>
+const claveCorrecta = "2607";
+let claveIngresada;
+let accesoPermitido = false;
+
+do {
+  claveIngresada = prompt("SÓLO PARA DESARROLLADORES. Ingrese la clave para acceder:");
+  if (claveIngresada === null) { // Si el usuario cancela
+    alert("Acceso cancelado.");
+    window.location.href = "../index.html";
+
+    break;
+  }
+  if (claveIngresada === claveCorrecta) {
+    accesoPermitido = true;
+  } else {
+    alert("Clave incorrecta. Inténtelo de nuevo.");
+  }
+} while (!accesoPermitido);
+
+
+  </script>
+</head>
+<body>
+  <p id="alInicio" class="principio"></p>
+    <header>
+      <div class="container">
+        <p class="logo"> CARMELITAS</p>
+        <!-- ****************************************************** -->
+        <a href="#alInicio"><img src="../images/ESCUDOCARM.png" alt="" class="logoC"></a>
+       <p> <a href="../index.html" class="nombre">INICIO </a></p>
+      </div>
+    </header> <br><br>
+    <!-- ****************************************************************** -->
+<h1 class="init">LAYOUTS</h1>
+  <h3 class="cita">"No aceptes como Verdad lo que no proviene del Amor, <br> ni aceptes como Amor lo que no proviene de la Verdad"
+      <br>EDITH STEIN</h3>
+
+
+<!-- ****************************************************************** -->
+
+<section id="">
+  <hr>
+  <h1> TEMAS</h1>
+  <div>
+    <ol>
+     <li class="li"><a href="#0">ENLACES</a></li>
+     <li class="li"><a href="#1">CÓDIGO DE ARCHIVO</a></li>
+     <li class="li"><a href="#2">ESQUEMA DE LECTIO</a></li>
+     <li class="li"><a href="#3">ESQUEMA DE APOLOGÍA</a></li>
+     <li class="li"><a href="#4"></a></li>
+     <li class="li"><a href="#5"></a></li>
+     <li class="li"><a href="#6"></a></li>
+     <li class="li"><a href="#7"></a></li>
+
+    </ol>
+
+  </div>
+</section>
+<!-- ****************************************************************** -->
+<section id="0">
+  <h2 class="subtitulo">ENLACES</h2>
+  <!-- /////////////////////////////////////// -->
+  <ol>
+    <li><details class="select">
+      <summary><a href="./PrincipalInicio.html">Layout Inicial</a></summary>
+      <p><br><br></p>
+    </details></li>
+    <!-- ****************************** -->
+    <li><details class="select">
+      <summary><a href="./LectioDivina.html">Lectio Divina</a></summary>
+      <p><br><br></p>
+    </details></li>
+    <!-- ****************************** -->
+    <li><details class="select">
+      <summary><a href="./interpretacion.html">Criterios de Interpretación</a></summary>
+      <p>
+        <ol>
+          <li>El contexto [imágenes]</li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ol><br><br></p>
+    </details></li>
+    <!-- ****************************** -->
+    <li><details class="select">
+      <summary></summary>
+      <p><br><br></p>
+    </details></li>
+    <!-- ****************************** -->
+
+  </ol>
+  <!-- ////////////////////////////////// -->
+
+</section>
+<!-- ****************************************************************** -->
+<section id="1">
+  <h2 class="subtitulo">CÓDIGO GENERAL</h2>
+   <!-- /////////////////////////////////////// -->
+   <ol>
+    <li><details class="select">
+      <summary>Plantilla General</summary>
+      <p>Uso en GKC, Y Evangelios, TIENE LA COMODIDAD DE PODER VER TODOS LOS ELEMENTOS Y DESGLOSAR CADA UNO.<br><br></p>
+    </details></li>
+    <!-- ****************************** -->
+    <li><details class="select">
+      <summary>Código</summary>
+      <p>&lt;!DOCTYPE html>
+        &lt;html lang="en">
+        &lt;head>
+          &lt;meta charset="UTF-8">
+          &lt;meta name="viewport" content="width=device-width, initial-scale=1.0">
+          &lt;link rel="stylesheet" href="../style.css">
+          &lt;title>APOLOGÉTICA&lt;/title>
+        &lt;/head>
+        &lt;body>
+          &lt;p id="alInicio" class="principio">&lt;/p>
+            &lt;header>
+              &lt;div class="container">
+                &lt;p class="logo"> CARMELITAS&lt;/p>
+                &lt;!-- ****************************************************** -->
+                &lt;a href="#alInicio">&lt;img src="../images/ESCUDOCARM.png" alt="" class="logoC">&lt;/a>
+               &lt;p> &lt;a href="../index.html" class="nombre">INICIO &lt;/a>&lt;/p>
+              &lt;/div>
+            &lt;/header> &lt;br>&lt;br>
+            &lt;!-- ****************************************************************** -->
+        &lt;h1 class="init">&lt;/h1>
+          &lt;h3 class="cita">"No aceptes como Verdad lo que no proviene del Amor, &lt;br> ni aceptes como Amor lo que no proviene de la Verdad"
+              &lt;br>EDITH STEIN&lt;/h3>
+        
+        
+        &lt;!-- ****************************************************************** -->
+        
+        &lt;section id="0">
+          &lt;hr>
+          &lt;h1> TEMAS&lt;/h1>
+          &lt;div>
+            &lt;ol>
+             li.li*7>a[href="#$"]
+        
+            &lt;/ol>
+        
+          &lt;/div>
+        &lt;/section>
+        &lt;!-- ****************************************************************** -->
+        &lt;section id="1">
+          &lt;h2 class="subtitulo">&lt;/h2>
+           &lt;!-- /////////////////////////////////////// -->
+           &lt;ol>
+            &lt;li>&lt;details class="select">
+              &lt;summary>El Texto&lt;/summary>
+              &lt;p>&lt;br>&lt;br>&lt;/p>
+            &lt;/details>&lt;/li>
+            &lt;!-- ****************************** -->
+            &lt;li>&lt;details class="select">
+              &lt;summary>Variaciones en el Texto&lt;/summary>
+              &lt;p>&lt;br>&lt;br>&lt;/p>
+            &lt;/details>&lt;/li>
+            &lt;!-- ****************************** -->
+   
+
+          &lt;/ol>
+          &lt;!-- ////////////////////////////////// -->
+        
+        &lt;/section>
+        &lt;!-- ****************************************************************** -->
+        &lt;section id="2">
+          &lt;h2 class="subtitulo">&lt;/h2>
+          &lt;!-- /////////////////////////////////////// -->
+          &lt;ol>
+            &lt;li>&lt;details class="select">
+              &lt;summary>El Texto&lt;/summary>
+              &lt;p>&lt;br>&lt;br>&lt;/p>
+            &lt;/details>&lt;/li>
+            &lt;!-- ****************************** -->
+            &lt;li>&lt;details class="select">
+              &lt;summary>Variaciones en el Texto&lt;/summary>
+              &lt;p>&lt;br>&lt;br>&lt;/p>
+            &lt;/details>&lt;/li>
+            &lt;!-- ****************************** -->
+      
+          &lt;/ol>
+          &lt;!-- ////////////////////////////////// -->
+        
+        &lt;/section>
+        &lt;!-- ****************************************************************** -->
+        &lt;section id="3">
+          &lt;h2 class="subtitulo">&lt;/h2>
+            &lt;!-- /////////////////////////////////////// -->
+            &lt;ol>
+              &lt;li>&lt;details class="select">
+                &lt;summary>El Texto&lt;/summary>
+                &lt;p>&lt;br>&lt;br>&lt;/p>
+              &lt;/details>&lt;/li>
+              &lt;!-- ****************************** -->
+              &lt;li>&lt;details class="select">
+                &lt;summary>Variaciones en el Texto&lt;/summary>
+                &lt;p>&lt;br>&lt;br>&lt;/p>
+              &lt;/details>&lt;/li>
+              &lt;!-- ****************************** -->
+
+            &lt;/ol>
+            &lt;!-- ////////////////////////////////// -->
+        
+        &lt;/section>
+        &lt;!-- ****************************************************************** -->
+        &lt;section id="4">
+          &lt;h2 class="subtitulo">&lt;/h2>
+          &lt;!-- /////////////////////////////////////// -->
+          &lt;ol>
+            &lt;li>&lt;details class="select">
+              &lt;summary>El Texto&lt;/summary>
+              &lt;p>&lt;br>&lt;br>&lt;/p>
+            &lt;/details>&lt;/li>
+            &lt;!-- ****************************** -->
+            &lt;li>&lt;details class="select">
+              &lt;summary>Variaciones en el Texto&lt;/summary>
+              &lt;p>&lt;br>&lt;br>&lt;/p>
+            &lt;/details>&lt;/li>
+            &lt;!-- ****************************** -->
+
+
+          &lt;/ol>
+          &lt;!-- ////////////////////////////////// -->
+        
+        &lt;/section>
+        &lt;!-- ****************************************************************** -->
+        &lt;section id="5">
+          &lt;h2 class="subtitulo">&lt;/h2>
+           &lt;!-- /////////////////////////////////////// -->
+           &lt;ol>
+            &lt;li>&lt;details class="select">
+              &lt;summary>El Texto&lt;/summary>
+              &lt;p>&lt;br>&lt;br>&lt;/p>
+            &lt;/details>&lt;/li>
+            &lt;!-- ****************************** -->
+            &lt;li>&lt;details class="select">
+              &lt;summary>Variaciones en el Texto&lt;/summary>
+              &lt;p>&lt;br>&lt;br>&lt;/p>
+            &lt;/details>&lt;/li>
+            &lt;!-- ****************************** -->
+       
+           
+          &lt;/ol>
+          &lt;!-- ////////////////////////////////// -->
+        
+        &lt;/section>
+        &lt;!-- ****************************************************************** -->
+        &lt;section id="6">
+          &lt;h2 class="subtitulo">&lt;/h2>
+            &lt;!-- /////////////////////////////////////// -->
+            &lt;ol>
+              &lt;li>&lt;details class="select">
+                &lt;summary>El Texto&lt;/summary>
+                &lt;p>&lt;br>&lt;br>&lt;/p>
+              &lt;/details>&lt;/li>
+              &lt;!-- ****************************** -->
+              &lt;li>&lt;details class="select">
+                &lt;summary>Variaciones en el Texto&lt;/summary>
+                &lt;p>&lt;br>&lt;br>&lt;/p>
+              &lt;/details>&lt;/li>
+              &lt;!-- ****************************** -->
+            
+             
+            &lt;/ol>
+            &lt;!-- ////////////////////////////////// -->
+        
+        &lt;/section>
+        &lt;!-- ****************************************************************** -->
+        &lt;section id="7">
+          &lt;h2 class="subtitulo">&lt;/h2>
+          &lt;!-- /////////////////////////////////////// -->
+          &lt;ol>
+            &lt;li>&lt;details class="select">
+              &lt;summary>El Texto&lt;/summary>
+              &lt;p>&lt;br>&lt;br>&lt;/p>
+            &lt;/details>&lt;/li>
+            &lt;!-- ****************************** -->
+            &lt;li>&lt;details class="select">
+              &lt;summary>Variaciones en el Texto&lt;/summary>
+              &lt;p>&lt;br>&lt;br>&lt;/p>
+            &lt;/details>&lt;/li>
+            &lt;!-- ****************************** -->
+      
+   
+
+          &lt;/ol>
+          &lt;!-- ////////////////////////////////// -->
+
+        &lt;/section>
+        &lt;!-- ****************************************************************** -->
+
+        &lt;/body>
+        &lt;/html><br><br></p>
+    </details></li>
+    <!-- ****************************** -->
+    <li><details class="select">
+      <summary>Aprendizaje</summary>
+      <p>
+        <ol>
+          <li>Definir el objetivo exactamente</li>
+          <li>Simplificar</li>
+          <li>Encontrar patrones y secuencias</li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ol><br><br></p>
+    </details></li>
+    <!-- ****************************** -->
+    <li><details class="select">
+      <summary></summary>
+      <p><br><br></p>
+    </details></li>
+    <!-- ****************************** -->
+  
+   
+  </ol>
+  <!-- ////////////////////////////////// -->
+
+</section>
+<!-- ****************************************************************** -->
+<section id="2">
+  <h2 class="subtitulo">ESQUEMA DE LECTIO</h2>
+  <!-- /////////////////////////////////////// -->
+  <ol>
+    <li><details class="select">
+      <summary>El Texto</summary>
+      <p>Texto usado habitualmente, también la versión original y versiones criticas<br><br></p>
+    </details></li>
+    <!-- ****************************** -->
+    <li><details class="select">
+      <summary>Variaciones en el Texto</summary>
+      <p>Que diferencias sustanciales hay entre las versiones usadas<br><br></p>
+    </details></li>
+    <!-- ****************************** -->
+    <li><details class="select">
+      <summary>Temas</summary>
+      <p>Que temas relevantes se observan en la perícopa<br><br></p>
+    </details></li>
+    <!-- ****************************** -->
+    <li><details class="select">
+      <summary>Patrística</summary>
+      <p>Que pensaban los Padres de la iglesia, cual era el consenso y las discrepancias<br><br></p>
+    </details></li>
+    <!-- ****************************** -->
+    <li><details class="select">
+      <summary>Paralelos</summary>
+      <p>Paralelos textuales y temáticos<br><br></p>
+    </details></li>
+    <!-- ****************************** -->
+    <li><details class="select">
+      <summary></summary>
+      <p><br><br></p>
+    </details></li>
+    <!-- ****************************** -->
+   
+  </ol>
+  <!-- ////////////////////////////////// -->
+
+</section>
+<!-- ****************************************************************** -->
+<section id="3">
+  <h2 class="subtitulo">ESQUEMA APOLOGÉTICO</h2>
+    <!-- /////////////////////////////////////// -->
+    <ol>
+      <li><details class="select">
+        <summary>Clave</summary>
+        <p><ol>
+          <li>Escuchar atentamente y definir el tema lo más preciso posible <br>
+           <b>  ejemplo:¿“Ud afirma que Dios prohíbe tener imágenes”?</b></li>
+          <li>Es importante iniciar con la pregunta central: <br>
+            ¿Es lo mismo una imagen que un ídolo?</li>
+          <li>En cada texto que presenten debemos resaltar la pregunta central y el tema</li>
+          <li>ENTENDER Y ANOTAR SUS ARGUMENTOS <br>
+            Cita exacta<br>
+            Cita exacta <br>
+            Versión de Biblia <br>
+            Argumentos Lógicos</li>
+          <li>COMO LLEGÓ A SU CONCLUSIÓN<br>
+            Como interpreta el texto<br>
+            Que cree le dice Dios a través del texto el día de hoy</li>
+          <li>VISIÓN TEOLÓGICA<br>
+            Como ve la relación de Dios con el hombre<br>
+            Como ve la relación entre los hombres</li>
+          <li></li>
+        </ol><br><br></p>
+      </details></li>
+      <!-- ****************************** -->
+      <li><details class="select">
+        <summary>Definiciones</summary>
+        <p>
+          <ol>
+            <li>Conceptos usados</li>
+            <li>Su definición RAE</li>
+            <li>Etimología</li>
+            <li>Desarrollo histórico del concepto</li>
+            <li>Sentido bíblico</li>
+            <li></li>
+          </ol><br><br></p>
+      </details></li>
+      <!-- ****************************** -->
+      <li><details class="select">
+        <summary>Preguntas</summary>
+        <p><ol>
+          <li>Textos </li>
+          <li>Sentido que le dan al texto</li>
+          <li>Sentido que tiene en el contexto</li>
+          <li>Textos y temas paralelos</li>
+          <li>Observaciones a la interpretación</li>
+          <li></li>
+        </ol><br><br></p>
+      </details></li>
+      <!-- ****************************** -->
+      <li><details class="select">
+        <summary>Respuestas</summary>
+        <p><ol>
+          <li>textos</li>
+          <li>Como interpreta ese texto</li>
+          <li>Sentido que tiene en el contexto</li>
+          <li>Textos y temas paralelos</li>
+          <li></li>
+        </ol><br><br></p>
+      </details></li>
+      <!-- ****************************** -->
+
+    </ol>
+    <!-- ////////////////////////////////// -->
+
+</section>
+<!-- ****************************************************************** -->
+<section id="4">
+  <h2 class="subtitulo"></h2>
+  <!-- /////////////////////////////////////// -->
+  <ol>
+    <li><details class="select">
+      <summary></summary>
+      <p><br><br></p>
+    </details></li>
+    <!-- ****************************** -->
+    <li><details class="select">
+      <summary></summary>
+      <p><br><br></p>
+    </details></li>
+    <!-- ****************************** -->
+    <li><details class="select">
+      <summary></summary>
+      <p><br><br></p>
+    </details></li>
+    <!-- ****************************** -->
+
+  </ol>
+  <!-- ////////////////////////////////// -->
+
+</section>
+<!-- ****************************************************************** -->
+<section id="5">
+  <h2 class="subtitulo"></h2>
+   <!-- /////////////////////////////////////// -->
+   <ol>
+    <li><details class="select">
+      <summary></summary>
+      <p><br><br></p>
+    </details></li>
+    <!-- ****************************** -->
+    <li><details class="select">
+      <summary></summary>
+      <p><br><br></p>
+    </details></li>
+    <!-- ****************************** -->
+    <li><details class="select">
+      <summary></summary>
+      <p><br><br></p>
+    </details></li>
+    <!-- ****************************** -->
+
+   
+  </ol>
+  <!-- ////////////////////////////////// -->
+
+</section>
+<!-- ****************************************************************** -->
+<section id="6">
+  <h2 class="subtitulo"></h2>
+    <!-- /////////////////////////////////////// -->
+    <ol>
+      <li><details class="select">
+        <summary></summary>
+        <p><br><br></p>
+      </details></li>
+      <!-- ****************************** -->
+      <li><details class="select">
+        <summary></summary>
+        <p><br><br></p>
+      </details></li>
+      <!-- ****************************** -->
+      <li><details class="select">
+        <summary></summary>
+        <p><br><br></p>
+      </details></li>
+      <!-- ****************************** -->
+
+     
+    </ol>
+    <!-- ////////////////////////////////// -->
+
+</section>
+<!-- ****************************************************************** -->
+<section id="7">
+  <h2 class="subtitulo"></h2>
+  <!-- /////////////////////////////////////// -->
+  <ol>
+    <li><details class="select">
+      <summary></summary>
+      <p><br><br></p>
+    </details></li>
+    <!-- ****************************** -->
+    <li><details class="select">
+      <summary></summary>
+      <p><br><br></p>
+    </details></li>
+    <!-- ****************************** -->
+    <li><details class="select">
+      <summary></summary>
+      <p><br><br></p>
+    </details></li>
+    <!-- ****************************** -->
+ 
+   
+  </ol>
+  <!-- ////////////////////////////////// -->
+
+</section>
+<!-- ****************************************************************** -->
+
+
+
+
+</body>
+</html>

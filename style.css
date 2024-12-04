@@ -147,3 +147,15 @@ section {
    border-radius: 5px;
   margin-left: 47%;
 }
+
+.portada{
+  border: 4px brown double;
+  max-width: 95%;
+ }
+
+ .reserve{
+  font-size: 0.7em;
+  color: brown;
+  text-decoration: none;
+  font-style: italic;
+ }
