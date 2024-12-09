@@ -60,7 +60,7 @@ body{
   font-size: 0.9em;
  text-decoration: none;
   font-style: italic;
-  padding-right: 1em;
+  
 }
 
 .nombre:hover{
@@ -151,6 +151,7 @@ section {
 .portada{
   border: 4px brown double;
   max-width: 95%;
+  margin-top: 2.5em;
  }
 
  .reserve{
