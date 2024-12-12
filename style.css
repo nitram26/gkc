@@ -20,8 +20,6 @@ body{
   width: 95%;
   height: auto;
   border-radius: 1em;
-  margin-left: 1%;
-  margin-right: 1.5%;
   color: white;
   font-size: 1.5em;
   padding-left: 0.5em;
@@ -97,6 +95,11 @@ body{
   margin: 0.4em;
   font-size: 1.5em;
   padding-left: 0.5em;
+ }
+
+ .li>a{
+  color: blue;
+  text-decoration: none;
  }
  summary{
   color: brown;
