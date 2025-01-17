@@ -110,6 +110,8 @@ body{
 .subtitulo{
   color: darkred;
   margin-left: 1em;
+  font-size: 1.7em;
+ text-decoration: underline ;
 }
 
 .lema{
