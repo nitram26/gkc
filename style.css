@@ -111,7 +111,9 @@ body{
   color: darkred;
   margin-left: 1em;
   font-size: 1.7em;
- text-decoration: underline ;
+ border: 5px double brown;
+width: 12em;
+text-align: center;
 }
 
 .lema{
