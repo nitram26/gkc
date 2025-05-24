@@ -88,7 +88,9 @@ body{
   font-size: 1.5em;
 }
 
-/* summary */
+li{
+  margin-bottom: 0.5em;
+}
 .li{
   border: 1px solid brown;
   width: 90%;
