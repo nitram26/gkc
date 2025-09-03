@@ -1,18 +1,18 @@
-body{
+body {
   background-color: antiquewhite;
 }
 
-.contenedor{
+.contenedor {
   margin-left: 5%;
   margin-top: 4em;
 }
 
-.principio{
+.principio {
   position: absolute;
   top: -0px;
- }
+}
 
- .container{
+.container {
   display: flex;
   position: fixed;
   border: 5px double rgb(247, 241, 241);
@@ -28,8 +28,8 @@ body{
 }
 
 /* imágenes */
-.logoC{
-  max-width: 1.8em; 
+.logoC {
+  max-width: 1.8em;
   height: auto;
   border-radius: 20px;
   margin-top: 0.2em;
@@ -50,29 +50,28 @@ body{
   background-position: center center;
 } */
 
-.nombre{
+.nombre {
   color: white;
   white-space: nowrap; /* Evita saltos de línea */
-  overflow: hidden;    /* Oculta el desbordamiento */
+  overflow: hidden; /* Oculta el desbordamiento */
   text-overflow: ellipsis; /* Muestra "..." si el texto es demasiado largo */
   font-size: 0.9em;
- text-decoration: none;
+  text-decoration: none;
   font-style: italic;
-margin-top: 1em;
-  
+  margin-top: 1em;
 }
 
-.nombre:hover{
+.nombre:hover {
   color: yellow;
 }
-.footer{
+.footer {
   border: green double 4px;
   background-color: antiquewhite;
   border-radius: 1em;
   text-align: center;
 }
 
-.init{
+.init {
   margin-top: 2.5em;
   border: 4px double brown;
   width: 10em;
@@ -80,51 +79,50 @@ margin-top: 1em;
   color: brown;
   font-style: italic;
   padding: 0.2em;
-
 }
 
-.cita{
+.cita {
   color: brown;
   font-style: italic;
   font-size: 1.5em;
 }
 
-li{
+li {
   margin-bottom: 0.5em;
 }
-.li{
+.li {
   border: 1px solid brown;
   width: 90%;
   margin: 0.4em;
   font-size: 1.5em;
   padding-left: 0.5em;
- }
+}
 
- .li>a{
+.li > a {
   color: blue;
   text-decoration: none;
- }
- summary{
+}
+summary {
   color: brown;
   font-style: italic;
   font-weight: bold;
 }
 
-.subtitulo{
+.subtitulo {
   color: darkred;
   margin-left: 1em;
   font-size: 1.7em;
- border: 5px double brown;
-width: 12em;
-text-align: center;
+  border: 5px double brown;
+  width: 12em;
+  text-align: center;
 }
 
-.lema{
+.lema {
   color: blue;
   font-size: 1.2em;
 }
 
-.select{
+.select {
   border: brown 1px solid;
   font-size: 1.2em;
   width: 90%;
@@ -134,39 +132,44 @@ text-align: center;
 
 /* evita que se meta debajo del header cuando llamo a la section */
 section {
-  scroll-margin-top: 7em; 
+  scroll-margin-top: 7em;
 }
 
 .image-container {
-   position: relative; 
-   display: inline-block; 
-  } 
+  position: relative;
+  display: inline-block;
+}
 
-.image-container img 
-{ 
-  width: 100%; height: auto; 
-} 
+.image-container img {
+  width: 100%;
+  height: auto;
+}
 
-.image-title 
-{ position: absolute; 
-  bottom: 8px; 
-  left: 8px; color: white; 
+.image-title {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  color: white;
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 5px; 
+  padding: 5px;
   font-size: 2.5em;
-   border-radius: 5px;
+  border-radius: 5px;
   margin-left: 47%;
 }
 
-.portada{
+.portada {
   border: 4px brown double;
   max-width: 95%;
   margin-top: 2.5em;
- }
+}
 
- .reserve{
+.reserve {
   font-size: 0.7em;
   color: brown;
   text-decoration: none;
   font-style: italic;
- }
+}
+
+.negrita {
+  font-weight: bold;
+}
