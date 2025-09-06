@@ -25,6 +25,10 @@
     <!-- ******************************************************** -->
     <section class="">
       <div class="image-container">
+        <img src="./images/2025.jpg" alt="2025" class="portada">
+        <div class="image-title">2025</div>
+      </div>
+      <div class="image-container">
         <img src="./images/PORTADA2023.jpeg" alt="" class="portada">
         <div class="image-title">2022</div>
       </div>
@@ -39,17 +43,27 @@
 
     </section>
     <!-- ******************************************************** -->
-    <section>
+   <section>
       <footer class="footer">
-        <footer>
-          <h3>&copy;  ORDEN CARMELITA SEGLAR PUCUSANA 2016 - <span id="year"></span><br><a href="./magisterio/interpretacion.html" class="reserve">Diseñado por StudioXperto</a></h3>
-        </footer>
+        <h3>
+          &copy; ORDEN CARMELITA SEGLAR-PUCUSANA
+          <br />
+          2016-
+          <span id="year"></span>
+          <br />
+          Diseñado por:
+          <span class="studio">StudioXperto</span>
+        </h3>
+        <h4><div id="semana-info"></div></h4> <br>
+        <button id="info-button" class="boton">SEMANA-DIA</button>
         <script>
-        document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
-  </footer>
-</section>
-<!-- ///////////////////////////////////////////////////////// -->
+          document.getElementById("year").textContent =
+            new Date().getFullYear();
+        </script>
+      </footer>
+    </section> <br><br><br><br>
+    <!-- ////////////////////////////////////////// -->
+     <script src="./JS/numeroDeSemana.js"></script>
   </body>
 
 </html>
